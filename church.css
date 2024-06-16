@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: white;
+    background-color: rgb(85, 00, 255);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styling */
+header {
+    background: maroon;
+    color: white;
+    padding: 1rem 0;
+}
+
+header .logo {
+    float: left;
+    width: 150px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero section styling */
+.hero {
+    background: url('images/header.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.hero .btn {
+    background: maroon;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Section styling */
+section {
+    padding: 2rem 0;
+	
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+	color: white;
+}
+
+#about p {
+    text-align: center;
+    margin-bottom: 1.5rem;
+	color: white;
+}
+
+#services ul {
+    list-style: none;
+    padding: 0;
+	color: maroon;
+}
+
+#services ul li {
+    background: #eaeaea;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+	
+}
+
+#contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+	color: white;
+}
+
+#contact form label {
+    grid-column: 1 / 3;
+    margin-top: 1rem;
+	color: white;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 0.5rem;
+	color: white;
+}
+
+#contact form button {
+    grid-column: 1 / 3;
+    padding: 0.75rem;
+    background: maroon;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+	
+}
+
+#contact form button:hover {
+    background: maroon;
+	color: white;
+}
+
+/* Footer styling */
+footer {
+    background: maroon;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
